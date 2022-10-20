@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.paint.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="797.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol.FXMLDocumentController">
+   <children>
+      <MenuBar prefHeight="39.0" prefWidth="797.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Input">
+               <items>
+                  <MenuItem mnemonicParsing="false" onAction="#inputtransaksi" text="Transaksi" />
+               </items></Menu>
+          <Menu mnemonicParsing="false" text="Display">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#displaytransaksi" text="Transaksi" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="538.0" fitWidth="797.0" layoutY="37.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

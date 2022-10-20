@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="507.0" prefWidth="903.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol.FXMLStrukController">
+   <children>
+      <ImageView fitHeight="521.0" fitWidth="903.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../2.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="421.0" layoutY="305.0" prefHeight="25.0" prefWidth="0.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="281.0" layoutY="305.0" text="Jam Tayang" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="284.0" layoutY="168.0" text="Nama" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="420.0" layoutY="168.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="215.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="419.0" layoutY="257.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="257.0" text="Tanggal Tayang" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="277.0" layoutY="215.0" text="Judul Film" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtnama" layoutX="443.0" layoutY="167.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtjudulfilm" layoutX="444.0" layoutY="215.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="txttgl" layoutX="445.0" layoutY="257.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="txtjam" layoutX="445.0" layoutY="305.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="283.0" layoutY="354.0" text="Total Tiket" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="282.0" layoutY="395.0" text="Total Bayar" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="354.0" prefHeight="25.0" prefWidth="0.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="421.0" layoutY="395.0" prefHeight="25.0" prefWidth="0.0" text=":" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="txttotaltiket" layoutX="445.0" layoutY="353.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font></Label>
+      <Label fx:id="txttotalbayar" layoutX="446.0" layoutY="395.0" text="-" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

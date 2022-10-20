@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="701.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uts_pbol.FXMLDisplayTransaksiController">
+   <children>
+      <ImageView fitHeight="710.0" fitWidth="539.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../3.png" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tbvtransaksi" layoutX="83.0" layoutY="180.0" onMouseClicked="#setdata" prefHeight="193.0" prefWidth="345.0">
+        <columns>
+          <TableColumn prefWidth="75.0" text="C1" />
+          <TableColumn prefWidth="75.0" text="C2" />
+        </columns>
+      </TableView>
+      <Label layoutX="220.0" layoutY="140.0" text="Transaksi" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnawal" layoutX="25.0" layoutY="245.0" mnemonicParsing="false" onAction="#awalklik" prefHeight="42.0" prefWidth="42.0" text="|&lt;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnakhir" layoutX="443.0" layoutY="239.0" mnemonicParsing="false" onAction="#akhirklik" prefHeight="42.0" prefWidth="42.0" text="&gt;|">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnsebelum" layoutX="25.0" layoutY="300.0" mnemonicParsing="false" onAction="#sebelumklik" prefHeight="42.0" prefWidth="42.0" text="&lt;&lt;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnsesudah" layoutX="443.0" layoutY="294.0" mnemonicParsing="false" onAction="#sesudahklik" prefHeight="42.0" prefWidth="42.0" text="&gt;&gt;">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <TableView fx:id="tbvdetiltransaksi" layoutX="89.0" layoutY="439.0" prefHeight="193.0" prefWidth="345.0">
+         <columns>
+            <TableColumn prefWidth="75.0" text="C1" />
+            <TableColumn prefWidth="75.0" text="C2" />
+         </columns>
+      </TableView>
+      <Label layoutX="202.0" layoutY="400.0" text="Detil Transaksi" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="408.0" layoutY="47.0" text="Cari Data" textFill="WHITE">
+         <font>
+            <Font name="Comic Sans MS" size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtcaridata" layoutX="347.0" layoutY="82.0" onKeyReleased="#cariData" prefHeight="39.0" prefWidth="144.0" />
+   </children>
+</AnchorPane>
